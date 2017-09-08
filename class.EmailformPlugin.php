@@ -25,7 +25,7 @@ class EmailformPlugin extends Plugin {
 				error_log ( "Ticket detected, source is: " . $ticket->getSource() . "." );
 			}
 			if ($ticket->getSource() == "Email"){
-				populateFields($ticket);
+				$this->populateFields($ticket);
 			}
 		});
 	}
@@ -35,7 +35,7 @@ class EmailformPlugin extends Plugin {
 	 *
 	 * @param Ticket $ticket
 	 */
-	private static function populateFields(Ticket $ticket) {
+	private function populateFields(Ticket $ticket) {
 		$config = $this->getConfig();
 		
 		// Have a default form been configured?
