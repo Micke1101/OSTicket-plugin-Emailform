@@ -54,9 +54,9 @@ class EmailformPlugin extends Plugin {
 			foreach ($f->getFields() as $field){
 				
 				//Does the regex designated to the field match anything in the body?
-				if($config->exists('emailform-' . $field->get('label')) 
+				if($config->exists('emailform-' . $field->get('name')) 
 					&& preg_match("/" . $config->get('emailform-' 
-					. $field->get('label')) . "/", $body, $matches)){
+					. $field->get('name')) . "/", $body, $matches)){
 					
 					//Add the first match to the entry.
 					$f->setAnswer($field->get('name'), $matches[0]);
