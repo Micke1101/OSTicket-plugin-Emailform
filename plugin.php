@@ -4,6 +4,6 @@
  'name' => 'Emailform',
  'author' => 'name@domain.com',
  'description' => 'Adds a form with variables to emails.',
- 'url' => 'http://localhost',
+ 'url' => 'https://github.com/Micke1101/OSTicket-plugin-Emailform',
  'plugin' => 'class.EmailformPlugin.php:EmailformPlugin'
 );
