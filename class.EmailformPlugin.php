@@ -3,7 +3,7 @@ require_once (INCLUDE_DIR . 'class.signal.php');
 require_once ('config.php');
 
 class EmailformPlugin extends Plugin {
-	const DEBUG = TRUE;
+	const DEBUG = FALSE;
 	/**
 	 * Which config to use (in config.php)
 	 *
