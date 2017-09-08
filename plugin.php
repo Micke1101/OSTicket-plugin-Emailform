@@ -1,5 +1,5 @@
 <?php return array(
- 'id' => 'safling:emailform',
+ 'id' => 'micke1101:emailform',
  'version' => '0.1',
  'name' => 'Emailform',
  'author' => 'name@domain.com',
