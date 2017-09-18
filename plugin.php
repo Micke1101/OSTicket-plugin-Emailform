@@ -1,9 +1,9 @@
 <?php return array(
- 'id' => 'micke1101:emailform',
- 'version' => '0.1',
- 'name' => 'Emailform',
- 'author' => 'name@domain.com',
- 'description' => 'Adds a form with variables to emails.',
- 'url' => 'https://github.com/Micke1101/OSTicket-plugin-Emailform',
- 'plugin' => 'class.EmailformPlugin.php:EmailformPlugin'
+    'id' => 'tinymce',
+    'version' => '0.1.1',
+    'name' => 'TinyMCE',
+    'author' => 'Micke1101',
+    'description' => 'Replaces the standard editor redactor with TinyMCE.',
+    'url' => 'https://github.com/Micke1101/OSTicket-plugin-TinyMCE',
+    'plugin' => 'class.TinyMCEPlugin.php:TinyMCEPlugin'
 );
